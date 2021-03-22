@@ -87,7 +87,6 @@ module.exports = function () {
     this.clickfood = function () {
         buttonActions.click(food)
         return this;
-
     }
 
 
@@ -98,7 +97,7 @@ module.exports = function () {
         this.clickMenuType()
         waitActions.wait()
         this.selectNonvegItems()
-        waitActions.wait()
+        waitActions.waitForElementIsDisplayed()
         this.selectBiriyani()
         waitActions.wait()
         this.selectWine()

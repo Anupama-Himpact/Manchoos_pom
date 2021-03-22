@@ -152,7 +152,7 @@ module.exports = function () {
         this.clickOthrSaveButton()
         waitActions.wait()
         this.clickRemoveNewDetails()
-        waitActions.wait()
+       waitActions.wait()
     }
     
 
