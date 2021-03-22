@@ -7,10 +7,10 @@ waitTimeout = 120000;
 
 config.specs = [
     'global.js',
-	//'specs/sampleTest.js',
+	'specs/sampleTest.js',
 	//'specs/manchoos-Valet.js',
-//'specs/profileCovidpolicy.js'
-	'specs/profilepolicy.js'
+    //'specs/profileCovidpolicy.js'
+	//'specs/profilepolicy.js'
 	//'specs/profileAdmin.js'
 	//'specs/profileEmail.js'
 	//'specs/profileFeature.js'
