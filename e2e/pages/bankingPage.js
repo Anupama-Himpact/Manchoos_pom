@@ -148,7 +148,7 @@ module.exports = function () {
         this.clicknewverify()
         waitActions.waitForElementIsDisplayed()
         this.enterNewAccName(newAccName)
-        waitActions.wait()
+        waitActions.waitForElementIsDisplayed()
         this.clickOthrSaveButton()
         waitActions.wait()
         this.clickRemoveNewDetails()
