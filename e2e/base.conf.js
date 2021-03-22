@@ -9,15 +9,15 @@ config.specs = [
     'global.js',
 	//'specs/sampleTest.js',
 	//'specs/manchoos-Valet.js',
-	//'specs/profileCovidpolicy.js'
-	//'specs/profilepolicy.js'
+//'specs/profileCovidpolicy.js'
+	'specs/profilepolicy.js'
 	//'specs/profileAdmin.js'
 	//'specs/profileEmail.js'
 	//'specs/profileFeature.js'
 	//'specs/profileBanking.js'
      // 'specs/profileGallary.js'
 	// 'specs/menuCatagories.js'
-	'specs/menuSpecs.js'
+	//'specs/menuSpecs.js'
 
 ];
 

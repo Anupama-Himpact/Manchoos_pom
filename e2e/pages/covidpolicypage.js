@@ -48,15 +48,15 @@ module.exports = function () {
     }
     this.covidAction=function(){
         this.navigateTocovidPolicy()
-        waitActions.waitForElementIsDisplayed()
+        waitActions.wait()
         this.clickSelectPolicy()
-        waitActions.waitForElementIsDisplayed()
+        waitActions.wait()
         this.clickSavebutton()
-        waitActions.waitForElementIsDisplayed()
+        waitActions.wait()
         this.clickUnselectPolicy()
-        waitActions.waitForElementIsDisplayed()
+        waitActions.wait()
         this.clickSavebutton()
-        waitActions.waitForElementIsDisplayed()
+        waitActions.wait()
     }
 }
 
